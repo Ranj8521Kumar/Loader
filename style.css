@@ -46,3 +46,14 @@ h2{
         transform: rotate(360deg);
     }
 }
+
+@media screen and (max-width:600px){
+    .round{
+        height: 150px;
+        width: 150px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+}
